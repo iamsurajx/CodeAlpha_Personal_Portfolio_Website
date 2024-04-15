@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/9650a62e47.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <title>Personal Portfolio Webpage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  </head>
+
+  <body>
+    <!-- PAGE ABOUT -->
+    <header id="about">
+      <nav id="navbar">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <!-- <li><a href="#certificates">Certificates</a></li> -->
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <a
+              href="SURAJ_CHOUDHARY_RESUME.pdf"
+              download="SURAJ_CHOUDHARY_RESUME.pdf"
+            >
+              <button
+                class="rounded-lg px-4 py-2 bg-blue-500 text-blue-100 hover:bg-blue-600 duration-300"
+              >
+                Download CV
+              </button>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div id="welcome-section" class="container">
+        <h1 id="title">
+          <div class="typewriter">Hello 👋, I'm Suraj Choudhary</div>
+        </h1>
+        <p class="lead"><em>a full-stack web developer</em></p>
+      </div>
+    </header>
+
+    <!-- PROJECT SECTION -->
+    <section id="projects">
+      <div class="project-tile">
+        <h1 id="caption">
+          "These are some demo projects for now, vist my Github page to see."
+        </h1>
+        <br />
+        <div id="bottom-line"></div>
+        <div class="projects">
+          <div class="box">
+            <a target="_blank" href="#">
+              <img
+                src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
+                alt="project-img"
+                class="project-img"
+              />
+              <p>
+                <span class="code">&lt;</span>
+                Tribute Page
+                <span class="code">/&gt;</span>
+              </p>
+            </a>
+          </div>
+
+          <div class="box">
+            <a target="_blank" href="#" alt="project-img" class="project-img">
+              <img
+                src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png"
+                alt="project-img"
+                class="project-img"
+              />
+              <p>
+                <span class="code">&lt;</span>
+                Random Quote Machine
+                <span class="code">/&gt;</span>
+              </p>
+            </a>
+          </div>
+
+          <div class="box">
+            <a target="_blank" href="#">
+              <img
+                src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png"
+                alt="project-img"
+                class="project-img"
+              />
+              <p>
+                <span class="code">&lt;</span>
+                Javascript Calculator
+                <span class="code">/&gt;</span>
+              </p>
+            </a>
+          </div>
+
+          <div target="_blank" class="box">
+            <a href="#">
+              <img
+                src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg"
+                alt="project-img"
+                class="project-img"
+              />
+              <p>
+                <span class="code">&lt;</span>
+                Map Data Across The Globe
+                <span class="code">/&gt;</span>
+              </p>
+            </a>
+          </div>
+
+          <div target="_blank" class="box">
+            <a href="#">
+              <img
+                src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png"
+                alt="project-img"
+                class="project-img"
+              />
+              <p>
+                <span class="code">&lt;</span>
+                Wikipedia Viewer
+                <span class="code">/&gt;</span>
+              </p>
+            </a>
+          </div>
+
+          <div target="_blank" class="box">
+            <a href="#">
+              <img
+                src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png"
+                alt="project-img"
+                class="project-img"
+              />
+              <p>
+                <span class="code">&lt;</span>
+                TikTak Toe
+                <span class="code">/&gt;</span>
+              </p>
+            </a>
+          </div>
+        </div>
+        <a href="#" class="btn">Show More</a>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+      <div class="container">
+        <h1>Let's work together...</h1>
+        <p>Need help with your project? Just ask!</p>
+        <div class="social">
+          <div>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/surajchoudhary01/"
+            >
+              <i class="fab fa-linkedin fa-1x"></i>
+              Linkedin
+            </a>
+            <a
+              id="profile-link"
+              target="_blank"
+              href="https://github.com/iamsurajx"
+            >
+              <i class="fab fa-github fa-1x"></i>
+              Github
+            </a>
+            <a target="_blank" href="https://twitter.com/imsuraj_code">
+              <i class="fab fa-twitter fa-1x"></i>
+              Twitter
+            </a>
+            <a href="mailto:surajofficemail@gmail.com">
+              <i class="fas fa-envelope-open-text fa-1x"></i>
+              Mail
+            </a>
+            <a href="https://wa.me/+918093729517">
+              <i class="fas fa-phone fa-1x"></i>
+              Call Me
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer id="main-footer">
+      <div class="container">
+        <!-- <p>
+        **This is just a fake portfolio. All the projects and contact details
+        given are not real.
+      </p> -->
+        <p id="creator">
+          Just for now all the copyright are reserved &copy; suraj choudhary
+        </p>
+      </div>
+    </footer>
+    <script src="/script.js"></script>
+  </body>
+</html>
